@@ -1,24 +1,24 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
+  title: '业余无线电爱好者',
+  author: 'zipeijun',
+  email: 'zipeijun@gmail.com',
+  link: 'https://HamRadioFans.vercel.app',
   description: 'This gonna be an awesome website.',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP']
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#111827', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2021, // if leave this empty, current year will be used.
-  postsPerPage: 7,
-  sortByDate: false,
+  postsPerPage: 10,
+  sortByDate: true,
   showAbout: true, // WIP
   showArchive: true, // WIP
-  autoCollapsedNavBar: false, // the automatically collapsed navigation bar
-  socialLink: 'https://twitter.com/craigaryhart',
+  autoCollapsedNavBar: true, // the automatically collapsed navigation bar
+  socialLink: 'https://github.com/zipeijun',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', 'Website', 'Ham Radio', 'Amateur Radio', '业余无线电', '业余无线电爱好者', '业余无线电爱好者博客'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
